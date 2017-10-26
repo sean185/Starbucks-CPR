@@ -3,7 +3,7 @@
 	"author" : "Sean",
 	"name" : "Starbucks CPR",
 	"description" : "Starbucks Chrome Page Reopener",
-	"version" : "0.0.2",
+	"version" : "0.0.3",
 	"icons" : {
 		"16" : "icon16.png",
 		"19" : "icon19.png",

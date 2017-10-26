@@ -11,9 +11,10 @@ var stringify2mmss = function(ms) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-	document.getElementById('starbucks').innerHTML = bgvars.at_starbucks ? "Yes!" : "no ._."
-	document.getElementById('connected').innerHTML = bgvars.external_ip ? bgvars.external_ip : "no :("
-	document.getElementById('duration').innerHTML = bgvars.start_time ? stringify2mmss(new Date() - bgvars.start_time) : "-"
-})
+	document.getElementById('starbucks').innerHTML = bgvars.at_starbucks ? "Yes!" : "no ._.";
+	document.getElementById('connected').innerHTML = bgvars.external_ip ? bgvars.external_ip : "no :(";
+	document.getElementById('duration').innerHTML = bgvars.start_time ? stringify2mmss(new Date() - bgvars.start_time) : "-";
+	document.getElementById('reconnects').innerHTML = bgvars.reconnects + " times";
+});
 
 console.log("CPR popup.js init");
